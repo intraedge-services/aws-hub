@@ -3,7 +3,7 @@ AWS Professional Services Hub
 
 ## About
 This is a central hub for Intraedge Professional Services best practices around AWS. AS AWS evolves and launches new services, we constantly update our practices in order to lower the cost for customers.
-These practices will be versioned in our github repositories to enable provide support to our customers who started with a particular version. 
+These practices will be versioned in our github repositories to provide support to our customers who started with a particular version. 
 These practices are designed considering five pillars of [AWS Well Architected Framework](https://aws.amazon.com/architecture/well-architected/) 
 
 ## Account Setup
