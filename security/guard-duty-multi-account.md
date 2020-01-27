@@ -12,7 +12,7 @@ In order to setup guard duty in a multi-account using security account,  we need
 
 ### Enable StackSet Execution from Master Account
 We need ability to enable guardduty for multiple accounts using our master account for organization.
-- Create IAM role: AWSCloudFormationStackSetAdministrationRole using [cloudformation stack](https://s3.amazonaws.com/cloudformation-stackset-sample-templates-us-east-1/AWSCloudFormationStackSetAdministrationRole.yml)
+- Login to AWS Organization master account and Create IAM role: AWSCloudFormationStackSetAdministrationRole using [cloudformation stack](https://s3.amazonaws.com/cloudformation-stackset-sample-templates-us-east-1/AWSCloudFormationStackSetAdministrationRole.yml)
   [One Click Deploy for us-west-2](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=cfn-stackset-admin&templateURL=https://s3.amazonaws.com/cloudformation-stackset-sample-templates-us-east-1/AWSCloudFormationStackSetAdministrationRole.yml)
 - Login to remaining accounts accounts and create IAM Role AWSCloudFormationStackSetExecutionRole using [cloudformation stack](https://s3.amazonaws.com/cloudformation-stackset-sample-templates-us-east-1/AWSCloudFormationStackSetExecutionRole.yml)
   [One Click Deploy for us-west-2](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=cfn-stackset-execute&templateURL=https://s3.amazonaws.com/cloudformation-stackset-sample-templates-us-east-1/AWSCloudFormationStackSetExecutionRole.yml)
