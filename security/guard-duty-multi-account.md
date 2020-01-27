@@ -8,7 +8,7 @@ Currently control tower does not support provisioning of Guard Duty in multiple 
 In order to setup guard duty in a multi-account using security account,  we need security ability for master account to launch stacksets. We will designate audit account in the multi-organization setup as guard duty master account.
 - Login to audit account for organization.
 - Go to GuardDuty service and enable guard duty by creating approporiate service role.
-- Go to accounts and add remaining accounts in organization to this master account. Also send invitations to these accounts. [Follow step 1 and step 2 of AWS Documentation](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_accounts.html#guardduty_become_console). For multiple regions, create a CSV from [this template](data:text/csv;charset=utf-8;base64,QWNjb3VudCBJRCxFbWFpbA0KMTExMTExMTExMTExLHVzZXJAZXhhbXBsZS5jb20NCg==) and use it to add accounts for multiple regions.
+- Go to accounts and add remaining accounts in organization to this master account. Also send invitations to these accounts. [Follow step 1 and step 2 of AWS Documentation](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_accounts.html#guardduty_become_console). For multiple regions, create a CSV from data:text/csv;charset=utf-8;base64,QWNjb3VudCBJRCxFbWFpbA0KMTExMTExMTExMTExLHVzZXJAZXhhbXBsZS5jb20NCg== and use it to add accounts for multiple regions.
 
 ### Enable StackSet Execution from Master Account
 We need ability to enable guardduty for multiple accounts using our master account for organization.
