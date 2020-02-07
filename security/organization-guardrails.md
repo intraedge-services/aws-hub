@@ -25,7 +25,11 @@ For instance, if we want to restrict the usage to us-west-2 region for region sp
                 "globalaccelerator:*",
                 "importexport:*",
                 "support:*",
-                "trustedadvisor:*"
+                "trustedadvisor:*",
+                "aws-portal:*",
+                "budgets:*",
+                "ce:*",
+                "pricing:*"
             ],
             "Resource": "*",
             "Condition": {
