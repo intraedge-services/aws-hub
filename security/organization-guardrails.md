@@ -24,7 +24,8 @@ For instance, if we want to restrict the usage to us-west-2 region for region sp
                 "cloudfront:*",
                 "globalaccelerator:*",
                 "importexport:*",
-                "support:*"
+                "support:*",
+                "trustedadvisor:*"
             ],
             "Resource": "*",
             "Condition": {
