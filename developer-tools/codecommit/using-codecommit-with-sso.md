@@ -8,7 +8,7 @@ Before you can connect to AWS CodeCommit for the first time, you must complete t
 
    ## Step 2: Install Git
    
-To work with files, commits, and other information in CodeCommit repositories, you must install Git on your local machine. CodeCommit supports **Git versions 1.7.9**  and later. We recommend using a recent version of Git.To install Git, we recommend websites  such as 
+To work with files, commits, and other information in CodeCommit repositories, you must install Git on your local machine. CodeCommit supports **Git versions 1.7.9**  and later. We recommend using a recent version of Git.To install Git, we recommend websites such as 
 Git for Windows. If you use this link to install Git, you can accept all of the installation default settings except for the following:
 When prompted during the Adjusting your PATH environment step, choose the option to use Git from the command line.
 
