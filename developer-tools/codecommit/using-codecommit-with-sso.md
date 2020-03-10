@@ -71,7 +71,7 @@ above  Commannd writes the following to the .gitconfig file:
  
 ### Step 4 :- To install and configure the AWS CLI
 
-Download  and install the AWS CLI[Download AWS Cli ](https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi).  CodeCommit works only with **AWS CLI versions 1.7.38** and later. 
+Download  and install the AWS CLI [Download AWS Cli ](https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi).  CodeCommit works only with **AWS CLI versions 1.7.38** and later. 
 
 To determine which version of the AWS CLI you have installed, run the follwing Command 
 ```
@@ -84,7 +84,7 @@ We need to bookmark our sso signup link . Example is  following  below .
        
  **https://my-sso-portal.awsapps.com/start**
 
-Copy paste the link in your browser and select your account .Then select your account, it will give you two option management Console and programmatic  access . Here we need to click on programmatic access . again it will give you two options like MAC/Linux and windows . Here we need to select windows,  because we are using windows . copy environment credential and paste it in CMD 
+Copy paste the link in your browser and select your account .Then select your account, it will give you two option management Console and programmatic  access . Here we need to click on programmatic access , again it will give you two options like MAC/Linux and windows . Here we need to select windows,  because we are using windows . copy environment credential and paste it in CMD 
 
 ### Step 6: Connect to the CodeCommit Console and Clone the Repository
 
@@ -92,3 +92,6 @@ Open the CodeCommit console at **https://console.aws.amazon.com/codesuite/codeco
 ```
  git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/MyDemoRepo
 ```
+
+
+For more Refrences [git-remote-codecommit clone step for Windows ](https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-git-remote-codecommit.html)
