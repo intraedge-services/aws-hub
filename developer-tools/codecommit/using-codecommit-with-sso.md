@@ -13,7 +13,7 @@ Install Python
        
  To Verify python Installition Type the Below Command 
  ```python
-  Python --version 
+  python --version 
   ```
  Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.      
  
