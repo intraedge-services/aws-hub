@@ -7,6 +7,7 @@ We need to setup git-remote-codecommit to connect CodeCommit Using a root accoun
 
 Note!
  we need must install **Python Version 3** or Later and its package manager pip , git-remote-codecommit requires **pip version 9.0.3** or later.
+ 
 Install Python 
     1. Download and Install latest python. [Download Python](https://www.python.org/downloads/) . Ensure that the Install launcher for  
        all users (recommended) and the Add Python 3.7 to PATH checkboxes at the bottom are checked .
@@ -17,12 +18,10 @@ Install Python
   ```
  Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.      
  
- 
 Installing Pip
 
-    1. Download and install Pip . [Download Pip](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip)
-
-
+1. Download and install Pip [Download](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip)
+    
 Download **get-pip.py** to a folder on your computer.
 Open a command prompt and navigate to the folder containing **get-pip.py.**
 Run the following command:
@@ -68,7 +67,6 @@ above  Commannd writes the following to the .gitconfig file:
     UseHttpPath = true
 ```
  
- 
 ### Step 4 :- To install and configure the AWS CLI
 
 Download  and install the AWS CLI [Download AWS Cli ](https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi).  CodeCommit works only with **AWS CLI versions 1.7.38** and later. 
@@ -92,6 +90,5 @@ Open the CodeCommit console at **https://console.aws.amazon.com/codesuite/codeco
 ```
  git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/MyDemoRepo
 ```
-
 
 For more Refrences [git-remote-codecommit clone step for Windows ](https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-git-remote-codecommit.html)
