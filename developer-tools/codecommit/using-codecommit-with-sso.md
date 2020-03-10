@@ -1,9 +1,9 @@
 
-#  AWS CodeCommit with git-remote-codecommit clone step for Windows. 
+##  AWS CodeCommit with git-remote-codecommit clone step for Windows. 
 
 We need to setup git-remote-codecommit to connect CodeCommit Using aroot account, federated access, or temporary credentials .Follwing  Steps are helping you to setup  git-remote-codecommit.   
       
-## Step 1: Install Prerequisites for git-remote-codecommit
+### Step 1: Install Prerequisites for git-remote-codecommit
 
 Note!
  we need must install **Python Version 3** or Later and its package manager pip , git-remote-codecommit requires **pip version 9.0.3** or later.
@@ -38,7 +38,7 @@ To check your version of pip, open a terminal or command line and run the follow
  pip --version
  ```
  
-## Step 2: Install git-remote-codecommit
+###  Step 2: Install git-remote-codecommit
 Follow these steps to install git-remote-codecommit.
 To install git-remote-codecommit At the terminal or command line, run the following command:
 
@@ -51,13 +51,13 @@ Below is the message of sucess installtion :
 Successfully built git-remote-codecommit
 ```
 
- ## Step 3: Set Up the Credential Helper
+### Step 3: Set Up the Credential Helper
 Open a command prompt and use Followign Command  that  enables the Git credential helper to send the path to repositories:
 
 ```
-> git config --global credential.helper "!aws codecommit credential-helper $@"
+ git config --global credential.helper "!aws codecommit credential-helper $@"
 
-> git config --global credential.UseHttpPath true
+ git config --global credential.UseHttpPath true
 ```
 
 above  Commannd writes the following to the .gitconfig file:
@@ -67,7 +67,7 @@ above  Commannd writes the following to the .gitconfig file:
     UseHttpPath = true**  
  
  
-## Step 4 :- To install and configure the AWS CLI
+### Step 4 :- To install and configure the AWS CLI
 
 Download  and install the AWS CLI[Download AWS Cli ](Download the AWS CLI MSI installer for Windows (64-bit) from https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi).  CodeCommit works only with **AWS CLI versions 1.7.38** and later. 
 
@@ -76,7 +76,7 @@ To determine which version of the AWS CLI you have installed, run the follwing C
 aws --version command.
 ```
 
-## Step 5 :- Configure AWS CLI With your SSO Credential 
+### Step 5 :- Configure AWS CLI With your SSO Credential 
 
 We need to bookmark our sso signup link . Example is  following  below .
        
@@ -84,9 +84,9 @@ We need to bookmark our sso signup link . Example is  following  below .
 
 Copy paste the link in your browser and select your account .Then select your account it will give you two option management Console and programmatic  access . Here we need to click on programmatic access . agin it will give you two options like MAC/Linux and windows . Here we need to select windows,  because we are using windows . copy environment credential and paste it on CMD 
 
-## Step 6: Connect to the CodeCommit Console and Clone the Repository
+### Step 6: Connect to the CodeCommit Console and Clone the Repository
 
 Open the CodeCommit console at **https://console.aws.amazon.com/codesuite/codecommit/home.**
 ```
-> git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/MyDemoRepo
+ git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/MyDemoRepo
 ```
