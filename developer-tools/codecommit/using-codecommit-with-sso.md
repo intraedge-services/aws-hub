@@ -37,9 +37,6 @@ To check your version of pip, open a terminal or command line and run the follow
  ```python
  pip --version
  ```
- 2. Download and install git. [Download Git for windows](https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe) 
- 
- Note! -  CodeCommit supports **Git versions 1.7.9** and later. on instaltion time make sure to  **Disable Git Credential Manager option**
  
 ###  Step 2: Install git-remote-codecommit
 Follow these steps to install git-remote-codecommit.
