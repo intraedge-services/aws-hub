@@ -1,4 +1,4 @@
-##  AWS CodeCommit with git-remote-codecommit clone step for Windows. 
+##  AWS CodeCommit using AWS SSO . 
 
 We need to setup git-remote-codecommit to connect CodeCommit Using a root account, federated access, or temporary credentials .Follwing  Steps are helping you to setup  git-remote-codecommit.   
       
