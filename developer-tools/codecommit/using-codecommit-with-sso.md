@@ -1,4 +1,3 @@
-
 ##  AWS CodeCommit with git-remote-codecommit clone step for Windows. 
 
 We need to setup git-remote-codecommit to connect CodeCommit Using a root account, federated access, or temporary credentials .Follwing  Steps are helping you to setup  git-remote-codecommit.   
@@ -37,6 +36,10 @@ To check your version of pip, open a terminal or command line and run the follow
  ```python
  pip --version
  ```
+ 
+ 2. Download and install git. [Download Git for windows](https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe)
+ 
+ Note! -  CodeCommit supports **Git versions 1.7.9** and later. make sure in  instaltion time **Disable Git Credential Manager option**
  
 ###  Step 2: Install git-remote-codecommit
 Follow these steps to install git-remote-codecommit.
