@@ -16,7 +16,7 @@ Install Python
    
    |                                                          For MAC                                                                |
    | ------------------------------------------------------------------------------------------------------------------------------- |
-   |1. Download and Install latest python. [Download Python for mac](https://www.python.org/ftp/python/3.7.7/python-3.7.7-macosx10.9.pkg)    |
+   |1. Download and Install latest python.[Download Python for mac](https://www.python.org/ftp/python/3.7.7/python-3.7.7-macosx10.9.pkg)|
     
     
  To Verify python Installition Type the Below Command (it will work both windows and mac )
