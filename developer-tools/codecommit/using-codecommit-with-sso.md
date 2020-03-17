@@ -12,11 +12,11 @@ Install Python
 
    |                                                           For Windows                                                           |
    | ------------------------------------------------------------------------------------------------------------------------------- |
-   |1. Download and Install latest python. [Download Python](https://www.python.org/downloads/) .Ensure that the Install launcher for all users (recommended). And the Add Python 3.7 tonPATH checkboxes at the bottom are checked |
+   |1. Download and Install latest python. [Download Python for windows ](https://www.python.org/downloads/) .Ensure that the Install launcher for all users (recommended). And the Add Python 3.7 tonPATH checkboxes at the bottom are checked |
    
    |                                                          For MAC                                                                |
    | ------------------------------------------------------------------------------------------------------------------------------- |
-   |1. Download and Install latest python. [Download Python](https://www.python.org/ftp/python/3.7.7/python-3.7.7-macosx10.9.pkg)    |
+   |1. Download and Install latest python. [Download Python for mac](https://www.python.org/ftp/python/3.7.7/python-3.7.7-macosx10.9.pkg)    |
     
     
  To Verify python Installition Type the Below Command (it will work both windows and mac )
@@ -27,19 +27,20 @@ Install Python
  
 Installing Pip
 
-    |                  For Windows                          |                            For Mac                                     |
-    |     ---                                                |     ---                                                               |
-
-1. Download and install Pip [Download](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip)
-    
-Download **get-pip.py** to a folder on your computer.
-Open a command prompt and navigate to the folder containing **get-pip.py.**
-Run the following command:
-
-  ```python
- python get-pip.py
- ```
- 
+   |                                              For Windows                                                                       |
+   |  ----------------------------------------------------------------------------------------------------------------------------- |
+   | 1. Download and install Pip [Download](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip) Download *get-pip.py* to a folder on your computer. Open a command prompt and navigate to the folder containing *get-pip.py*.                                |
+   
+   Run the following command on CMD in Windows System:
+   
+   
+      ```python
+       python get-pip.py
+       ```
+  |                                             For MAC                                                                            |
+  |  ----------------------------------------------------------------------------------------------------------------------------  |
+  | 1.  for Download  `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`for install  `python get-pip.py`                    |
+          
 Pip is now installed!
 
 To check your version of pip, open a terminal or command line and run the following command:
@@ -48,7 +49,7 @@ To check your version of pip, open a terminal or command line and run the follow
  pip --version
  ```
  
- 2. Download and install git. [Download Git for windows](https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe)
+ 2. Download and install git. [Download Git for windows](https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe) For Mac [Download git for Mac ](https://central.github.com/deployments/desktop/desktop/latest/darwin)
  
  Note! -  CodeCommit supports **Git versions 1.7.9** and later. make sure in  instaltion time **Disable Git Credential Manager option**
  
@@ -56,9 +57,16 @@ To check your version of pip, open a terminal or command line and run the follow
 Follow these steps to install git-remote-codecommit.
 To install git-remote-codecommit At the terminal or command line, run the following command:
 
+Note! - Below Commands are suppoting in both platform (windows/Mac) 
+
 ```python
  pip install git-remote-codecommit
  ```
+ For Upgrade and install to latest version 
+ 
+```python
+pip install --upgrade git-remote-codecommit
+```
 Below is the message of sucess installtion :
 
 ```
@@ -83,7 +91,16 @@ above  Commannd writes the following to the .gitconfig file:
  
 ### Step 4 :- To install and configure the AWS CLI
 
-Download  and install the AWS CLI [Download AWS Cli ](https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi).  CodeCommit works only with **AWS CLI versions 1.7.38** and later. 
+Download  and install the AWS CLI [Download AWS Cli for windows  ](https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi).  CodeCommit works only with **AWS CLI versions 1.7.38** and later. 
+
+Download and install the AWS Cli On Mac Follow the below steps 
+  
+  ```
+     curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+     unzip awscli-bundle.zip
+     sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+
+```
 
 To determine which version of the AWS CLI you have installed, run the follwing Command 
 ```
