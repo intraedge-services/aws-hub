@@ -1,8 +1,6 @@
 ##  AWS CodeCommit using AWS SSO 
 
 
-/** */
-
 We need to setup git-remote-codecommit to connect CodeCommit Using a root account, federated access, or temporary credentials .Follwing  Steps are helping you to setup  git-remote-codecommit.   
       
 ### Step 1: Install Prerequisites for git-remote-codecommit
@@ -11,16 +9,26 @@ Note!
  we need must install **Python Version 3** or Later and its package manager pip , git-remote-codecommit requires **pip version 9.0.3** or later.
  
 Install Python 
-    1. Download and Install latest python. [Download Python](https://www.python.org/downloads/) . Ensure that the Install launcher for  
-       all users (recommended) and the Add Python 3.7 to PATH checkboxes at the bottom are checked .
-       
- To Verify python Installition Type the Below Command 
+
+   |                                                           For Windows                                                           |
+   | ------------------------------------------------------------------------------------------------------------------------------- |
+   |1. Download and Install latest python. [Download Python](https://www.python.org/downloads/) .Ensure that the Install launcher for all users (recommended). And the Add Python 3.7 tonPATH checkboxes at the bottom are checked |
+   
+   |                                                          For MAC                                                                |
+   | ------------------------------------------------------------------------------------------------------------------------------- |
+   |1. Download and Install latest python. [Download Python](https://www.python.org/ftp/python/3.7.7/python-3.7.7-macosx10.9.pkg)    |
+    
+    
+ To Verify python Installition Type the Below Command (it will work both windows and mac )
  ```python
   python --version 
   ```
  Once you’ve confirmed that Python is correctly installed, you can proceed with installing Pip.      
  
 Installing Pip
+
+    |                  For Windows                          |                            For Mac                                     |
+    |     ---                                                |     ---                                                               |
 
 1. Download and install Pip [Download](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip)
     
