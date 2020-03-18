@@ -33,10 +33,11 @@ Installing Pip
    
    Run the following command on CMD in Windows System:
    
-   
-      ```python
-       python get-pip.py
-       ```
+   ```python
+   python get-pip.py
+   ```
+    
+    
   |                                             For MAC                                                                            |
   |  ----------------------------------------------------------------------------------------------------------------------------  |
   | 1.  for Download  `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`for install  `python get-pip.py`                    |
