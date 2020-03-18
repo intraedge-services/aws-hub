@@ -82,7 +82,9 @@ We need to bookmark our sso signup link . Example is  following  below .
        
  **https://my-sso-portal.awsapps.com/start**
 
-Copy paste the link in your browser and select your account .Then select your account, it will give you two option management Console and programmatic  access . Here we need to click on programmatic access , again it will give you two options like MAC/Linux and windows . Here we need to select windows,  because we are using windows . copy environment credential and paste it in CMD 
+Copy and  paste the link in your browser and select your account , it will give you two options as like management Console and programmatic  access . Here we need to click on programmatic access , again it will give you two options as like MAC/Linux and windows . Here you need to select  credential key according to your operating system Support , copy environment credential and paste it in CMD/Terminal. this process will add credetial for aws on your system .
+
+Note! if you get error like "select the region" , you need to run `aws configure` and set the region for the first time only . 
 
 ### Step 6: Connect to the CodeCommit Console and Clone the Repository
 
