@@ -26,5 +26,4 @@ FOr existing accounts, we highly recommend to migrate to a multi-account setup u
 
 
 ## Support
-For commercial support and professional services contact SalesInquiry@IntraEdge.com
-
+For commercial support and professional services contact cloudsales@intraedge.com
